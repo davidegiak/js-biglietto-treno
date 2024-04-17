@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    height: 600px;
+    background-color: mediumvioletred;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.w {
+    width: 10rem;
+}
