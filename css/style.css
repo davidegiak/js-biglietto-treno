@@ -11,18 +11,3 @@ main{
     align-items: center;
     height: 100vh;
 }
-
-.form{
-    display: flex;
-    flex-direction: column;
-    width: 1200px;
-    height: 600px;
-    background-color: mediumvioletred;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-}
-
-.w {
-    width: 10rem;
-}

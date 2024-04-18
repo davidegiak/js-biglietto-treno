@@ -19,4 +19,3 @@ console.log(`Il prezzo è: ${prezzo.toFixed(2)}`)
 document.getElementById("biglietto").innerHTML=prezzo.toFixed(2)
 
 
-// document.getElementById("biglietto").innerHTML=()
