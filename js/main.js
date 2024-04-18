@@ -1,14 +1,16 @@
-let age=prompt ("età")
+const age=prompt ("età")
 
-let kilomiters=prompt ("Kilometri")
+const kilomiters=prompt ("Kilometri")
 
-let prezzo=(kilomiters * 0.21)
+const base = 0.21
+
+let prezzo=(kilomiters * base)
 
 
 if (age < 18){
-    prezzo=(prezzo * 20 / 100 - prezzo )
+    prezzo=(prezzo * 0.2)
 } else if (age > 65){
-    prezzo=(prezzo * 40 / 100 - prezzo)
+    prezzo=(prezzo * 0.4)
 }
 
 alert (prezzo.toFixed(2))
