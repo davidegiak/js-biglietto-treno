@@ -8,9 +8,9 @@ let prezzo=(kilomiters * base)
 
 
 if (age < 18){
-    prezzo=(prezzo * 0.2)
+    prezzo=prezzo - (prezzo * 0.2)
 } else if (age > 65){
-    prezzo=(prezzo * 0.4)
+    prezzo=prezzo - (prezzo * 0.4)
 }
 
 alert (prezzo.toFixed(2))
